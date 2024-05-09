@@ -1,0 +1,12 @@
+Source: ros-humble-qb-device-msgs
+Section: misc
+Priority: optional
+Maintainer: qb Support Team <support@qbrobotics.com>
+Build-Depends: debhelper (>= 9.0.0), ros-humble-ament-cmake, ros-humble-rosidl-default-generators, ros-humble-std-msgs, ros-humble-std-srvs, ros-humble-ros-workspace, ros-humble-rosidl-typesupport-fastrtps-c, ros-humble-rosidl-typesupport-fastrtps-cpp
+Homepage: http://wiki.ros.org/qb_device_msgs
+Standards-Version: 3.9.2
+
+Package: ros-humble-qb-device-msgs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-humble-rosidl-default-runtime, ros-humble-std-msgs, ros-humble-std-srvs, ros-humble-ros-workspace
+Description: This package contains the device-independent custom ROS messages for qbrobotics® devices.
