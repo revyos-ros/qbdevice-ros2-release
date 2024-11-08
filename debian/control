@@ -1,0 +1,12 @@
+Source: ros-humble-qb-device-test-controllers
+Section: misc
+Priority: optional
+Maintainer: Support Team <support@qbrobotics.com>
+Build-Depends: debhelper (>= 9.0.0), python3-pytest <!nocheck>, ros-humble-rclpy, ros-humble-std-msgs, ros-humble-trajectory-msgs, ros-humble-ros-workspace, python3-all, python3-setuptools, dh-python
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-humble-qb-device-test-controllers
+Architecture: any
+Depends: ${python3:Depends}, ${misc:Depends}, ros-humble-rclpy, ros-humble-std-msgs, ros-humble-trajectory-msgs, ros-humble-ros-workspace
+Description: Demo nodes for showing and testing qb devices through waypoints.
