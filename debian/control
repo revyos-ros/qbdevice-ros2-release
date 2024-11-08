@@ -1,0 +1,12 @@
+Source: ros-humble-qb-device
+Section: misc
+Priority: optional
+Maintainer: qb Support Team <support@qbrobotics.com>
+Build-Depends: debhelper (>= 9.0.0), ros-humble-ament-cmake, ros-humble-ros-workspace
+Homepage: http://wiki.ros.org/qb_device
+Standards-Version: 3.9.2
+
+Package: ros-humble-qb-device
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-humble-qb-device-bringup, ros-humble-qb-device-driver, ros-humble-qb-device-msgs, ros-humble-qb-device-ros2-control, ros-humble-ros-workspace
+Description: This package contains a device-independent ROS interface for qbrobotics® devices.
