@@ -1,0 +1,236 @@
+ros-humble-qb-device-msgs (4.1.3-1bookworm) bookworm; urgency=high
+
+  * Fixing my mess with releases...
+
+ -- qb Support Team <support@qbrobotics.com>  Wed, 08 May 2024 16:00:00 -0000
+
+ros-humble-qb-device-msgs (4.1.2-1bookworm) bookworm; urgency=high
+
+  * Fix Versions
+  * 4.1.1
+  * 4.1.0
+
+ -- qb Support Team <support@qbrobotics.com>  Wed, 08 May 2024 16:00:00 -0000
+
+ros-humble-qb-device-msgs (4.1.1-1bookworm) bookworm; urgency=high
+
+  * 4.1.0
+
+ -- qb Support Team <support@qbrobotics.com>  Sun, 28 Apr 2024 16:00:00 -0000
+
+ros-humble-qb-device-msgs (4.1.0-1bookworm) bookworm; urgency=high
+
+  * Remove deprecated args from launch, added compatibility with qbmove
+
+ -- qb Support Team <support@qbrobotics.com>  Thu, 21 Mar 2024 16:00:00 -0000
+
+ros-humble-qb-device-msgs (4.0.2-1bookworm) bookworm; urgency=high
+
+
+
+ -- qb Support Team <support@qbrobotics.com>  Thu, 07 Mar 2024 16:00:00 -0000
+
+ros-humble-qb-device-msgs (4.0.1-1bookworm) bookworm; urgency=high
+
+
+
+ -- qb Support Team <support@qbrobotics.com>  Thu, 07 Mar 2024 16:00:00 -0000
+
+ros-humble-qb-device-msgs (4.0.0-1bookworm) bookworm; urgency=high
+
+  * Added controller list get method
+  * first compiling Humble version
+
+ -- qb Support Team <support@qbrobotics.com>  Thu, 07 Mar 2024 16:00:00 -0000
+
+ros-humble-qb-device-msgs (3.1.0-1bookworm) bookworm; urgency=high
+
+
+
+ -- qb Support Team <support@qbrobotics.com>  Tue, 25 Jul 2023 16:00:00 -0000
+
+ros-humble-qb-device-msgs (3.0.6-1bookworm) bookworm; urgency=high
+
+  * MINOR FIX: Changed the name of the package maintainer
+
+ -- qb Support Team <support@qbrobotics.com>  Tue, 25 Apr 2023 16:00:00 -0000
+
+ros-humble-qb-device-msgs (3.0.5-1bookworm) bookworm; urgency=high
+
+  * MINOR FIX: Changed cmake version required in all packages (current version 3.0.2).
+
+ -- qb Support Team <support@qbrobotics.com>  Tue, 06 Sep 2022 16:00:00 -0000
+
+ros-humble-qb-device-msgs (3.0.4-1bookworm) bookworm; urgency=high
+
+
+
+ -- qb Support Team <support@qbrobotics.com>  Sun, 17 Jul 2022 16:00:00 -0000
+
+ros-humble-qb-device-msgs (3.0.3-1bookworm) bookworm; urgency=high
+
+
+
+ -- qb Support Team <support@qbrobotics.com>  Thu, 14 Jul 2022 16:00:00 -0000
+
+ros-humble-qb-device-msgs (3.0.2-1bookworm) bookworm; urgency=high
+
+
+
+ -- qb Support Team <support@qbrobotics.com>  Wed, 06 Jul 2022 16:00:00 -0000
+
+ros-humble-qb-device-msgs (3.0.1-1bookworm) bookworm; urgency=high
+
+
+
+ -- qb Support Team <support@qbrobotics.com>  Tue, 05 Jul 2022 16:00:00 -0000
+
+ros-humble-qb-device-msgs (3.0.0-1bookworm) bookworm; urgency=high
+
+  * New API migration. qb_device_driver class is no longer required.
+
+ -- qb Support Team <support@qbrobotics.com>  Mon, 04 Jul 2022 16:00:00 -0000
+
+ros-humble-qb-device-msgs (2.3.4-1bookworm) bookworm; urgency=high
+
+
+
+ -- qb Support Team <support@qbrobotics.com>  Thu, 07 Apr 2022 16:00:00 -0000
+
+ros-humble-qb-device-msgs (2.3.3-1bookworm) bookworm; urgency=high
+
+
+
+ -- qb Support Team <support@qbrobotics.com>  Thu, 07 Apr 2022 16:00:00 -0000
+
+ros-humble-qb-device-msgs (2.3.2-1bookworm) bookworm; urgency=high
+
+
+
+ -- qb Support Team <support@qbrobotics.com>  Thu, 07 Apr 2022 16:00:00 -0000
+
+ros-humble-qb-device-msgs (2.3.1-1bookworm) bookworm; urgency=high
+
+
+
+ -- qb Support Team <support@qbrobotics.com>  Thu, 07 Apr 2022 16:00:00 -0000
+
+ros-humble-qb-device-msgs (2.3.0-1bookworm) bookworm; urgency=high
+
+
+
+ -- qb Support Team <support@qbrobotics.com>  Thu, 07 Apr 2022 16:00:00 -0000
+
+ros-humble-qb-device-msgs (2.2.1-1bookworm) bookworm; urgency=high
+
+
+
+ -- qb Support Team <support@qbrobotics.com>  Thu, 26 Aug 2021 16:00:00 -0000
+
+ros-humble-qb-device-msgs (2.2.0-1bookworm) bookworm; urgency=high
+
+  * Created message published in a topic by communication_handler that contains the connection status of each device.
+  * Fix cmake resource installation
+  * Update license
+  * Added a parameter to use the device with or without other robots. Added some motor limits when the qbmoves are used in kinematic configs.
+
+ -- qb Support Team <support@qbrobotics.com>  Thu, 26 Aug 2021 16:00:00 -0000
+
+ros-humble-qb-device-msgs (2.1.1-1bookworm) bookworm; urgency=high
+
+
+
+ -- qb Support Team <support@qbrobotics.com>  Sun, 06 Oct 2019 16:00:00 -0000
+
+ros-humble-qb-device-msgs (2.1.0-1bookworm) bookworm; urgency=high
+
+
+
+ -- qb Support Team <support@qbrobotics.com>  Mon, 27 May 2019 16:00:00 -0000
+
+ros-humble-qb-device-msgs (2.0.3-1bookworm) bookworm; urgency=high
+
+  * Update license agreement copyright
+
+ -- qb Support Team <support@qbrobotics.com>  Wed, 08 Aug 2018 16:00:00 -0000
+
+ros-humble-qb-device-msgs (2.0.2-1bookworm) bookworm; urgency=high
+
+
+
+ -- qb Support Team <support@qbrobotics.com>  Mon, 06 Aug 2018 16:00:00 -0000
+
+ros-humble-qb-device-msgs (2.0.1-1bookworm) bookworm; urgency=high
+
+
+
+ -- qb Support Team <support@qbrobotics.com>  Thu, 31 May 2018 16:00:00 -0000
+
+ros-humble-qb-device-msgs (2.0.0-1bookworm) bookworm; urgency=high
+
+  * Add device configuration to the state topic info
+  * Add repetitions while reading from serial
+
+ -- qb Support Team <support@qbrobotics.com>  Tue, 29 May 2018 16:00:00 -0000
+
+ros-humble-qb-device-msgs (1.2.2-1bookworm) bookworm; urgency=high
+
+
+
+ -- qb Support Team <support@qbrobotics.com>  Wed, 29 Nov 2017 16:00:00 -0000
+
+ros-humble-qb-device-msgs (1.1.0-1bookworm) bookworm; urgency=high
+
+
+
+ -- qb Support Team <support@qbrobotics.com>  Thu, 23 Nov 2017 16:00:00 -0000
+
+ros-humble-qb-device-msgs (1.0.8-1bookworm) bookworm; urgency=high
+
+
+
+ -- qb Support Team <support@qbrobotics.com>  Mon, 26 Jun 2017 16:00:00 -0000
+
+ros-humble-qb-device-msgs (1.0.7-1bookworm) bookworm; urgency=high
+
+
+
+ -- qb Support Team <support@qbrobotics.com>  Sun, 25 Jun 2017 16:00:00 -0000
+
+ros-humble-qb-device-msgs (1.0.6-1bookworm) bookworm; urgency=high
+
+  * Update cmake version to match Kinetic standards
+
+ -- qb Support Team <support@qbrobotics.com>  Thu, 22 Jun 2017 16:00:00 -0000
+
+ros-humble-qb-device-msgs (1.0.5-1bookworm) bookworm; urgency=high
+
+
+
+ -- qb Support Team <support@qbrobotics.com>  Wed, 21 Jun 2017 16:00:00 -0000
+
+ros-humble-qb-device-msgs (1.0.4-1bookworm) bookworm; urgency=high
+
+
+
+ -- qb Support Team <support@qbrobotics.com>  Tue, 20 Jun 2017 16:00:00 -0000
+
+ros-humble-qb-device-msgs (1.0.3-1bookworm) bookworm; urgency=high
+
+  * fix cmake settings to solve isolated builds
+
+ -- qb Support Team <support@qbrobotics.com>  Tue, 20 Jun 2017 16:00:00 -0000
+
+ros-humble-qb-device-msgs (1.0.2-1bookworm) bookworm; urgency=high
+
+
+
+ -- qb Support Team <support@qbrobotics.com>  Mon, 19 Jun 2017 16:00:00 -0000
+
+ros-humble-qb-device-msgs (1.0.1-1bookworm) bookworm; urgency=high
+
+  * first public release for Kinetic
+
+ -- qb Support Team <support@qbrobotics.com>  Sun, 18 Jun 2017 16:00:00 -0000
+
+
