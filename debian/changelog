@@ -1,0 +1,260 @@
+ros-humble-qb-device-bringup (4.1.3-1bookworm) bookworm; urgency=high
+
+  * Fixing my mess with releases...
+
+ -- qb Support Team <support@qbrobotics.com>  Wed, 08 May 2024 16:00:00 -0000
+
+ros-humble-qb-device-bringup (4.1.2-1bookworm) bookworm; urgency=high
+
+  * Fix Versions
+  * 4.1.1
+  * 4.1.0
+
+ -- qb Support Team <support@qbrobotics.com>  Wed, 08 May 2024 16:00:00 -0000
+
+ros-humble-qb-device-bringup (4.1.1-1bookworm) bookworm; urgency=high
+
+  * 4.1.0
+
+ -- qb Support Team <support@qbrobotics.com>  Sun, 28 Apr 2024 16:00:00 -0000
+
+ros-humble-qb-device-bringup (4.1.0-1bookworm) bookworm; urgency=high
+
+  * Remove deprecated args from launch, added compatibility with qbmove
+
+ -- qb Support Team <support@qbrobotics.com>  Thu, 21 Mar 2024 16:00:00 -0000
+
+ros-humble-qb-device-bringup (4.0.2-1bookworm) bookworm; urgency=high
+
+
+
+ -- qb Support Team <support@qbrobotics.com>  Thu, 07 Mar 2024 16:00:00 -0000
+
+ros-humble-qb-device-bringup (4.0.1-1bookworm) bookworm; urgency=high
+
+
+
+ -- qb Support Team <support@qbrobotics.com>  Thu, 07 Mar 2024 16:00:00 -0000
+
+ros-humble-qb-device-bringup (4.0.0-1bookworm) bookworm; urgency=high
+
+  * Feature: launcher with namespace
+  * Added controller list get method
+  * First SHR2M compatible version
+  * First SHR compatible version
+  * modified launch logic
+  * first compiling Humble version
+
+ -- qb Support Team <support@qbrobotics.com>  Thu, 07 Mar 2024 16:00:00 -0000
+
+ros-humble-qb-device-bringup (3.1.0-1bookworm) bookworm; urgency=high
+
+
+
+ -- qb Support Team <support@qbrobotics.com>  Tue, 25 Jul 2023 16:00:00 -0000
+
+ros-humble-qb-device-bringup (3.0.6-1bookworm) bookworm; urgency=high
+
+  * FIX: gazebo entity name setted as device_name (not device type). This caused errors when devices gazebo nodes start
+  * MINOR FIX: Changed the name of the package maintainer
+
+ -- qb Support Team <support@qbrobotics.com>  Tue, 25 Apr 2023 16:00:00 -0000
+
+ros-humble-qb-device-bringup (3.0.5-1bookworm) bookworm; urgency=high
+
+  * MINOR FIX: Changed cmake version required in all packages (current version 3.0.2).
+  * Bug fixed when executing the waypoint movement and different controller with different number of controller joints are loaded.
+  * Changed device controller bringup to load properly the device controller.
+
+ -- qb Support Team <support@qbrobotics.com>  Tue, 06 Sep 2022 16:00:00 -0000
+
+ros-humble-qb-device-bringup (3.0.4-1bookworm) bookworm; urgency=high
+
+
+
+ -- qb Support Team <support@qbrobotics.com>  Sun, 17 Jul 2022 16:00:00 -0000
+
+ros-humble-qb-device-bringup (3.0.3-1bookworm) bookworm; urgency=high
+
+
+
+ -- qb Support Team <support@qbrobotics.com>  Thu, 14 Jul 2022 16:00:00 -0000
+
+ros-humble-qb-device-bringup (3.0.2-1bookworm) bookworm; urgency=high
+
+
+
+ -- qb Support Team <support@qbrobotics.com>  Wed, 06 Jul 2022 16:00:00 -0000
+
+ros-humble-qb-device-bringup (3.0.1-1bookworm) bookworm; urgency=high
+
+
+
+ -- qb Support Team <support@qbrobotics.com>  Tue, 05 Jul 2022 16:00:00 -0000
+
+ros-humble-qb-device-bringup (3.0.0-1bookworm) bookworm; urgency=high
+
+  * Added loading motors control for SH2R
+
+ -- qb Support Team <support@qbrobotics.com>  Mon, 04 Jul 2022 16:00:00 -0000
+
+ros-humble-qb-device-bringup (2.3.4-1bookworm) bookworm; urgency=high
+
+
+
+ -- qb Support Team <support@qbrobotics.com>  Thu, 07 Apr 2022 16:00:00 -0000
+
+ros-humble-qb-device-bringup (2.3.3-1bookworm) bookworm; urgency=high
+
+
+
+ -- qb Support Team <support@qbrobotics.com>  Thu, 07 Apr 2022 16:00:00 -0000
+
+ros-humble-qb-device-bringup (2.3.2-1bookworm) bookworm; urgency=high
+
+
+
+ -- qb Support Team <support@qbrobotics.com>  Thu, 07 Apr 2022 16:00:00 -0000
+
+ros-humble-qb-device-bringup (2.3.1-1bookworm) bookworm; urgency=high
+
+
+
+ -- qb Support Team <support@qbrobotics.com>  Thu, 07 Apr 2022 16:00:00 -0000
+
+ros-humble-qb-device-bringup (2.3.0-1bookworm) bookworm; urgency=high
+
+  * BUG FIX when a generic qbrobotics device roslaunch is grouped in a namespace
+
+ -- qb Support Team <support@qbrobotics.com>  Thu, 07 Apr 2022 16:00:00 -0000
+
+ros-humble-qb-device-bringup (2.2.1-1bookworm) bookworm; urgency=high
+
+
+
+ -- qb Support Team <support@qbrobotics.com>  Thu, 26 Aug 2021 16:00:00 -0000
+
+ros-humble-qb-device-bringup (2.2.0-1bookworm) bookworm; urgency=high
+
+  * Fixed reconnection on killing nodes.
+  * Refactor control structures initialization
+  * Add Gazebo SoftHand and SoftHand 2 Motors plugin skeletons
+  * Refactor Gazebo plugin to prepare for SoftHand simulation
+  * Add hardware interface for SoftHand 2 Motors
+  * Set a better name for fake joint simulation variables
+  * Added the control mode switch service. Added a parameter to choose to use .yaml limits or firmware ones.
+  * Add Gazebo support for qbmove devices
+  * Fix hardcoded params in launch files since ros_comm#1354 has been backported to kinetic
+  * Fix 'pass_all_args' workaround since ros_comm#889 has been backported to kinetic
+  * Added compatibility to qb SoftClaw in .launch files
+  * Update arg description
+  * Added a parameter to use the device with or without other robots. Added some motor limits when the qbmoves are used in kinematic configs.
+
+ -- qb Support Team <support@qbrobotics.com>  Thu, 26 Aug 2021 16:00:00 -0000
+
+ros-humble-qb-device-bringup (2.1.1-1bookworm) bookworm; urgency=high
+
+
+
+ -- qb Support Team <support@qbrobotics.com>  Sun, 06 Oct 2019 16:00:00 -0000
+
+ros-humble-qb-device-bringup (2.1.0-1bookworm) bookworm; urgency=high
+
+  * Improve inheritance for other devices
+  * Update documentation
+  * Add a simulator mode to debug joint trajectories
+  * Add specific joint limits for the delta
+  * Add interactive markers startup activation
+  * Fix set/reset use_waypoints at each launch
+
+ -- qb Support Team <support@qbrobotics.com>  Mon, 27 May 2019 16:00:00 -0000
+
+ros-humble-qb-device-bringup (2.0.3-1bookworm) bookworm; urgency=high
+
+
+
+ -- qb Support Team <support@qbrobotics.com>  Wed, 08 Aug 2018 16:00:00 -0000
+
+ros-humble-qb-device-bringup (2.0.2-1bookworm) bookworm; urgency=high
+
+
+
+ -- qb Support Team <support@qbrobotics.com>  Mon, 06 Aug 2018 16:00:00 -0000
+
+ros-humble-qb-device-bringup (2.0.1-1bookworm) bookworm; urgency=high
+
+
+
+ -- qb Support Team <support@qbrobotics.com>  Thu, 31 May 2018 16:00:00 -0000
+
+ros-humble-qb-device-bringup (2.0.0-1bookworm) bookworm; urgency=high
+
+  * Refactor launch files
+  * Fix minors
+  * Add a blocking setCommands method
+  * Fix until ros_comm#889 is fixed
+  * Refactor launch files and fix controllers spawner
+
+ -- qb Support Team <support@qbrobotics.com>  Tue, 29 May 2018 16:00:00 -0000
+
+ros-humble-qb-device-bringup (1.2.2-1bookworm) bookworm; urgency=high
+
+  * Fix launch file
+
+ -- qb Support Team <support@qbrobotics.com>  Wed, 29 Nov 2017 16:00:00 -0000
+
+ros-humble-qb-device-bringup (1.1.0-1bookworm) bookworm; urgency=high
+
+  * Fix control nodes type
+
+ -- qb Support Team <support@qbrobotics.com>  Thu, 23 Nov 2017 16:00:00 -0000
+
+ros-humble-qb-device-bringup (1.0.8-1bookworm) bookworm; urgency=high
+
+
+
+ -- qb Support Team <support@qbrobotics.com>  Mon, 26 Jun 2017 16:00:00 -0000
+
+ros-humble-qb-device-bringup (1.0.7-1bookworm) bookworm; urgency=high
+
+
+
+ -- qb Support Team <support@qbrobotics.com>  Sun, 25 Jun 2017 16:00:00 -0000
+
+ros-humble-qb-device-bringup (1.0.6-1bookworm) bookworm; urgency=high
+
+  * Update cmake version to match Kinetic standards
+
+ -- qb Support Team <support@qbrobotics.com>  Thu, 22 Jun 2017 16:00:00 -0000
+
+ros-humble-qb-device-bringup (1.0.5-1bookworm) bookworm; urgency=high
+
+
+
+ -- qb Support Team <support@qbrobotics.com>  Wed, 21 Jun 2017 16:00:00 -0000
+
+ros-humble-qb-device-bringup (1.0.4-1bookworm) bookworm; urgency=high
+
+
+
+ -- qb Support Team <support@qbrobotics.com>  Tue, 20 Jun 2017 16:00:00 -0000
+
+ros-humble-qb-device-bringup (1.0.3-1bookworm) bookworm; urgency=high
+
+  * fix cmake settings to solve isolated builds
+
+ -- qb Support Team <support@qbrobotics.com>  Tue, 20 Jun 2017 16:00:00 -0000
+
+ros-humble-qb-device-bringup (1.0.2-1bookworm) bookworm; urgency=high
+
+
+
+ -- qb Support Team <support@qbrobotics.com>  Mon, 19 Jun 2017 16:00:00 -0000
+
+ros-humble-qb-device-bringup (1.0.1-1bookworm) bookworm; urgency=high
+
+  * first public release for Kinetic
+
+ -- qb Support Team <support@qbrobotics.com>  Sun, 18 Jun 2017 16:00:00 -0000
+
+
